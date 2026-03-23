@@ -1,15 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-  <title>Meu Site</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luiz Paulo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    img {
+      width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+  </style>
 </head>
+
 <body>
 
+<header>
   <h1>Luiz Paulo Tavares</h1>
   <p>Mestrando em Economia</p>
+</header>
 
+<nav>
+  <a href="#home">Home</a>
+  <a href="#pesquisa">Pesquisa</a>
+  <a href="#publicacoes">Publicações</a>
+  <a href="#cv">CV</a>
+</nav>
+
+<div class="container" id="home">
+  <img src="https://via.placeholder.com/150" alt="Sua foto">
+
+  <h2>Sobre mim</h2>
+  <p>
+    Sou bacharel em Economia e atualmente mestrando, com foco em econometria aplicada e análise de dados.
+    Tenho interesse em métodos quantitativos, inferência causal e economia regional.
+  </p>
+
+  <h2>Interesses de Pesquisa</h2>
+  <ul>
+    <li>Econometria Aplicada</li>
+    <li>Inferência Causal</li>
+    <li>Economia Regional</li>
+    <li>Séries Temporais</li>
+  </ul>
+</div>
+
+<div class="container" id="pesquisa">
   <h2>Pesquisa</h2>
-  <p>Quebra estrutural em séries temporais</p>
+  <p>
+    Atualmente trabalho com modelos econométricos aplicados a crescimento econômico e análise regional.
+  </p>
+</div>
+
+<div class="container" id="publicacoes">
+  <h2>Publicações</h2>
+  <ul>
+    <li>Artigo 1 - Em andamento</li>
+    <li>Artigo 2 - Submetido</li>
+  </ul>
+</div>
+
+<div class="container" id="cv">
+  <h2>Currículo</h2>
+  <p>
+    <a href="#">Baixar CV (PDF)</a>
+  </p>
+</div>
 
 </body>
 </html>
